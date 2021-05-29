@@ -23,13 +23,9 @@ main{
     padding: 1.5em;
     box-shadow: 0 16px 16px 0 cyan;
 }
-#quote{
-    font-family:cursive;
-    font-weight:'Indie Flower';
-}
+
 #author{
     text-align: right;
-    font-family:'Baloo Tammudu',cursive;
 }
 button{
     border:none;
