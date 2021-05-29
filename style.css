@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 :root{
     box-sizing: border-box;
 }
@@ -14,12 +16,34 @@ body{
 }
 main{
     width: 25em;
-    height:18.75em;
+    height:fit-content;
     background-color: white;
     border-radius: .8rem;
     text-align: center;
     padding: 1.5em;
+    box-shadow: 0 16px 16px 0 cyan;
+}
+#quote{
+    font-family:cursive;
+    font-weight: lighter;
 }
 #author{
     text-align: right;
+    font-family:cursive;
+}
+button{
+    border:none;
+    padding: 1em;
+    margin: 1em;
+    border-radius: .8em;
+    box-shadow: 5px 5px 5px black;
+    background-image: linear-gradient(45deg,rgb(97, 165, 230),cyan);
+}
+button:active{
+    animation:slidedown 500ms ;
+}
+@keyframes slidedown{
+    100%{
+        box-shadow: 0 0 0 white;
+    }
 }
