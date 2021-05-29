@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
 :root{
     box-sizing: border-box;
 }
@@ -25,11 +25,11 @@ main{
 }
 #quote{
     font-family:cursive;
-    font-weight: lighter;
+    font-weight:'Indie Flower';
 }
 #author{
     text-align: right;
-    font-family:cursive;
+    font-family:'Baloo Tammudu',cursive;
 }
 button{
     border:none;
