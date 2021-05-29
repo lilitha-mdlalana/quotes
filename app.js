@@ -7,7 +7,7 @@ generateQuote.addEventListener('click',()=>{
   .then(quote => quote.json())
   .then(data => {
       console.log(data);
-      quote.innerText = data.content;
+      quote.innerText = `"${data.content}"`;
       author.innerText = '- ' + data.author;
   })
   .catch(error => alert(error));  

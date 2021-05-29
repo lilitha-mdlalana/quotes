@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
 :root{
     box-sizing: border-box;
 }
@@ -23,7 +24,9 @@ main{
     padding: 1.5em;
     box-shadow: 0 16px 16px 0 cyan;
 }
-
+#quote{
+    font-family:'Cormorant','Courier New', Courier, monospace;
+}
 #author{
     text-align: right;
 }
